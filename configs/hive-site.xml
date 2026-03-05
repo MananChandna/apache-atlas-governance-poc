@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+  <!-- Atlas Hook -->
+  <property>
+    <name>hive.exec.post.hooks</name>
+    <value>org.apache.atlas.hive.hook.HiveHook</value>
+  </property>
+
+  <property>
+    <name>atlas.rest.address</name>
+    <value>http://localhost:21000</value>
+  </property>
+
+  <property>
+    <name>atlas.cluster.name</name>
+    <value>primary</value>
+  </property>
+
+</configuration>

@@ -1,0 +1,7 @@
+*.log
+*.pid
+*.tar.gz
+*.zip
+data/*
+!data/customers.csv
+
